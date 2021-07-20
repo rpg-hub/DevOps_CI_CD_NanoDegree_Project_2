@@ -38,15 +38,20 @@ To be able to run this app, we first need to clone our code in Git on our local 
 ![image](https://user-images.githubusercontent.com/14298823/126400590-0fe5308d-6c8c-4ff1-8531-149d107c1a60.png)
 *W0702 is OK.*
 
-  Run Locally
-  $ python app.py
-...screenshot...
+* Run Locally
+
+  `$ python app.py`
+![image](https://user-images.githubusercontent.com/14298823/126401102-56c1ee79-ed18-4612-a54d-19a12c02e2ff.png)
+
 
   in another window:
+  `
   $ cd DevOps_CI_CD_NanoDegree_Project_2
   $ chmod +x make_prediction.sh
   $ ./make_prediction.sh
- .....screenshot....
+  `
+ ![image](https://user-images.githubusercontent.com/14298823/126401143-3dba9dea-8a7a-4bc4-b556-ef94dbb9fb6f.png)
+
 
 * Output of a test run
 
