@@ -35,7 +35,18 @@ To be able to run this app, we first need to clone our code in Git on our local 
   `$ make all`
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+![image](https://user-images.githubusercontent.com/14298823/126400590-0fe5308d-6c8c-4ff1-8531-149d107c1a60.png)
+*W0702 is OK.*
 
+  Run Locally
+  $ python app.py
+...screenshot...
+
+  in another window:
+  $ cd DevOps_CI_CD_NanoDegree_Project_2
+  $ chmod +x make_prediction.sh
+  $ ./make_prediction.sh
+ .....screenshot....
 
 * Output of a test run
 
