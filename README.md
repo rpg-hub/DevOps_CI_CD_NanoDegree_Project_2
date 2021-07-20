@@ -68,7 +68,7 @@ To be able to run this app, we first need to clone our code in Git on our local 
 
 * Configure website name: Site names only allow alphanumeric characters and hyphens, cannot start or end in a hyphen, and must be less than 64 chars.
 
-  For this project site name is: https://DevOps-CI-CD-Rajeev.azurewebsites.net:$PORT/predict
+  For this project site name is: https://DevOps-CI-CD-Rajeev.azurewebsites.net
 
 
 * Successful deploy of the project in Azure Pipelines.
