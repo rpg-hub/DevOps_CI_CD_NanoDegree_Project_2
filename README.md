@@ -36,6 +36,7 @@ To be able to run this app, we first need to clone our code in Git on our local 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
+
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
