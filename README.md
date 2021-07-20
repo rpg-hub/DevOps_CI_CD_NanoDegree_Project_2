@@ -65,12 +65,25 @@ To be able to run this app, we first need to clone our code in Git on our local 
 
   ![image](https://user-images.githubusercontent.com/14298823/126403147-f4fbf10a-977b-4973-87e3-be9eb467132b.png)
 
+* Setup GitHub Actions : (CI workflow)
+  go to Actions, and select this workflow to start with: "set up a workflow yourself"
+  
+  ![image](https://user-images.githubusercontent.com/14298823/126407364-1f75d6cb-81e5-4824-b939-3947a4723762.png)
+
+
+* The CI job completes successfully.
+  ![image](https://user-images.githubusercontent.com/14298823/126409773-a1641e43-b3d3-4f54-8af4-d59ae81a6c15.png)
+
+
 
 * Configure website name: Site names only allow alphanumeric characters and hyphens, cannot start or end in a hyphen, and must be less than 64 chars.
 
   For this project site name is: https://DevOps-CI-CD-Rajeev.azurewebsites.net
   
-  To create an App Service an dinitially deploy your app:
+* Successful deploy of the project in Azure Pipelines.
+  [Also refer official documentation to setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
+  To create an App Service and initially deploy your app:
   ```
   az webapp up -n DevOps-CI-CD-Rajeev
   ```
@@ -78,15 +91,33 @@ To be able to run this app, we first need to clone our code in Git on our local 
   ![image](https://user-images.githubusercontent.com/14298823/126404828-e8df948e-bca9-4102-891f-3f3739878900.png)
 
 
-* A successful execution of the deployed app:
+* Project running on Azure App Service.
+ 
+  ![image](https://user-images.githubusercontent.com/14298823/126405383-38ad155f-fc2c-44ba-800c-584f77e24a80.png)
+
+  A successful execution of the deployed app: This script tests the App running on Azure App Service.
   
   ![image](https://user-images.githubusercontent.com/14298823/126405034-0a2f252b-4a8d-4b5a-9eff-e2e70cb4940c.png)
 
-  
-* Successful deploy of the project in Azure Pipelines.
-  [Also refer official documentation to setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+ 
+* Create a Azure Pipeline with Azure DevOps for CD to Azure App service
+  1. Create a Pipeline in Azure DevOps.
+    a. create DevOps Project
+    b. create service connection
+    c. create and configure pipeline:
+      c.1: source code: select GitHub
+      c.2: select Repo
+      c.3: On the Configure your pipeline screen, select Python to Linux Web App on Azure. (IMPORTANT)
+    New pipeline should be ready now. When prompted, select the Azure subscription in which you created your Web App.
+    * Select the Web App
+    * Select Validate and configure
 
-* Project running on Azure App Service
+    Azure Pipelines creates an azure-pipelines.yml file that defines your CI/CD pipeline as a series of stages, Jobs, and steps, where each step contains the details for different tasks and scripts.
+  
+  2. 
+
+c. While creeating a service connection please select "Python to Linux Web App on Azure" in configuration wizard and select out App from drop down menu.
+
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
