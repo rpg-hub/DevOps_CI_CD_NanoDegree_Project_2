@@ -26,13 +26,13 @@ To be able to run this app, we first need to clone our code in Git on our local 
 ![image](https://user-images.githubusercontent.com/14298823/126380130-33d81c6d-aa52-4f7c-82d3-06a9f76f144d.png)
 
 * setup virtual env for python:
-  ```$ make setup```
+  `$ make setup`
   
 * enable it:
-  ```$ source ~/.DevOps_CI_CD/bin/activate```
+  `$ source ~/.DevOps_CI_CD/bin/activate`
   
 * Install all dependencies in venv.
-  ```$ make all```
+  `$ make all`
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
