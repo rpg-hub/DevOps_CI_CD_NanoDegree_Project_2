@@ -20,15 +20,48 @@ This also ensures DevOps best practices are used to build and manage the project
 
 
 To be able to run this app, we first need to clone our code in Git on our local PC Or Azure Cloud Shell. Here we will use Azure Cloud Shell.
-* Clone this code to your Repo. from:
+* Clone this code to your Repo. from: git@github.com:rpg-hub/DevOps_CI_CD_NanoDegree_Project_2.git
 
 * Clone this code locally to Azure Cloud Shell locally from your Repo using SSH.
+![image](https://user-images.githubusercontent.com/14298823/126380130-33d81c6d-aa52-4f7c-82d3-06a9f76f144d.png)
 
-* ensure Python environment is set:
-
+* setup virtual env for python:
+  ```
+  $ make setup
+  ```
+  
+* enable it:
+  ```
+  $ source ~/.DevOps_CI_CD/bin/activate
+  ```
+  
 * Install all dependencies in venv.
+  ```
+  $ make all
+  ```
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+![image](https://user-images.githubusercontent.com/14298823/126400590-0fe5308d-6c8c-4ff1-8531-149d107c1a60.png)
+*W0702 is OK.*
+
+* Run Locally
+  ```
+  $ python app.py
+  ```
+  
+![image](https://user-images.githubusercontent.com/14298823/126401102-56c1ee79-ed18-4612-a54d-19a12c02e2ff.png)
+
+
+  in another window:
+  
+  ```
+  $ cd DevOps_CI_CD_NanoDegree_Project_2
+  $ chmod +x make_prediction.sh
+  $ ./make_prediction.sh
+  ```
+  
+ ![image](https://user-images.githubusercontent.com/14298823/126401143-3dba9dea-8a7a-4bc4-b556-ef94dbb9fb6f.png)
+
 
 * Output of a test run
 
