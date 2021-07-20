@@ -58,12 +58,16 @@ To be able to run this app, we first need to clone our code in Git on our local 
   $ chmod +x make_prediction.sh
   $ ./make_predict.sh
   ```
- ![image](https://user-images.githubusercontent.com/14298823/126401143-3dba9dea-8a7a-4bc4-b556-ef94dbb9fb6f.png)
+  ![image](https://user-images.githubusercontent.com/14298823/126401143-3dba9dea-8a7a-4bc4-b556-ef94dbb9fb6f.png)
 
 * updating GitHub Repo:
+  ![image](https://user-images.githubusercontent.com/14298823/126403147-f4fbf10a-977b-4973-87e3-be9eb467132b.png)
 
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* Configure website name: Site names only allow alphanumeric characters and hyphens, cannot start or end in a hyphen, and must be less than 64 chars.
+  For this project site name is: https://DevOps-CI-CD-Rajeev.azurewebsites.net:$PORT/predict
+  
+* Successful deploy of the project in Azure Pipelines.
+  [Also refer official documentation to setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Project running on Azure App Service
 
