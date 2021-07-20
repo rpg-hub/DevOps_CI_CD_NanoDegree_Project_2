@@ -69,8 +69,20 @@ To be able to run this app, we first need to clone our code in Git on our local 
 * Configure website name: Site names only allow alphanumeric characters and hyphens, cannot start or end in a hyphen, and must be less than 64 chars.
 
   For this project site name is: https://DevOps-CI-CD-Rajeev.azurewebsites.net
+  
+  To create an App Service an dinitially deploy your app:
+  ```
+  az webapp up -n DevOps-CI-CD-Rajeev
+  ```
+  
+  ![image](https://user-images.githubusercontent.com/14298823/126404828-e8df948e-bca9-4102-891f-3f3739878900.png)
 
 
+* A successful execution of the deployed app:
+  
+  ![image](https://user-images.githubusercontent.com/14298823/126405034-0a2f252b-4a8d-4b5a-9eff-e2e70cb4940c.png)
+
+  
 * Successful deploy of the project in Azure Pipelines.
   [Also refer official documentation to setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
