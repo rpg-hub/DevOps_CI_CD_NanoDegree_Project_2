@@ -1,5 +1,7 @@
 # Overview
 
+![DevOps-CI-CD-with-Azure-and-GitHub](https://github.com/rpg-hub/DevOps_CI_CD_NanoDegree_Project_2/actions/workflows/main.yml/badge.svg)
+
 In this project we are going to build a CI CD pipeline using Git, GitHub, Azure an dAzure DevOps. We will use:
 Git: to code hosting, version control and repo (on Git Hub)
 GitHub Actions: to aid in CI with testing and linting.
@@ -182,6 +184,7 @@ create service connection:
 
 
 * Azure Pipeline Processing: https://github.com/rpg-hub/DevOps_CI_CD_NanoDegree_Project_2/actions/workflows/main.yml
+  
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
