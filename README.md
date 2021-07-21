@@ -114,27 +114,51 @@ To be able to run this app, we first need to clone our code in Git on our local 
     b. create service connection:
       go to project settings at bottom:
       ![image](https://user-images.githubusercontent.com/14298823/126415539-46a4caee-05e5-43df-8a85-c23cebb4f212.png)
+  
+  
       select 'Service connections', create a new connection:
       ![image](https://user-images.githubusercontent.com/14298823/126415607-d45d8b36-44e2-49af-b183-ece0014654bf.png)
+  
+  
       Select ARM:
       ![image](https://user-images.githubusercontent.com/14298823/126415641-4085715a-a583-484d-a938-a4fe73aba20c.png)
+  
+  
       select authentication method:
       ![image](https://user-images.githubusercontent.com/14298823/126415690-5c763dfb-128e-4b33-8b5f-1461e9c00ef1.png)
+  
+  
       Authenticate to your Azure Account and put in more more details:
       ![image](https://user-images.githubusercontent.com/14298823/126416452-8ef84e9f-41d7-491a-9b18-be87c5207682.png)
+  
+  
       select the same RG where your App is:
       ![image](https://user-images.githubusercontent.com/14298823/126416706-5cdd1c10-e1db-498f-94c6-2a7765d574ab.png)
 
+      
+    c. create and configure pipeline:
+      ![image](https://user-images.githubusercontent.com/14298823/126416952-0b1d0e5f-beae-49cc-a2b8-11990af9f517.png)
 
   
-    c. create and configure pipeline:
-      c.1: source code: select GitHub
-      c.2: select Repo
-      c.3: On the Configure your pipeline screen, select Python to Linux Web App on Azure. (IMPORTANT)
-    New pipeline should be ready now. When prompted, select the Azure subscription in which you created your Web App.
-    * Select the Web App
-    * Select Validate and configure
+      source code: select GitHub
+      ![image](https://user-images.githubusercontent.com/14298823/126417029-d5ed6ff4-16ae-4ce8-b6a3-01b4e8f8f37d.png)
 
+      select Repo, authenticate to GitHub if required.
+      ![image](https://user-images.githubusercontent.com/14298823/126417109-95e6a27a-2cf1-4d6d-aaf4-cd3ee3e86746.png)
+  
+      Grant Access to one, more or all Repo:
+      ![image](https://user-images.githubusercontent.com/14298823/126417264-cfcb85f0-6469-49a8-954c-10c86226c3a9.png)
+
+      On the Configure your pipeline screen, select Python to Linux Web App on Azure. (IMPORTANT)
+      ![image](https://user-images.githubusercontent.com/14298823/126417331-b81a6fad-daa1-487c-9b46-cc23e2a41338.png)
+
+      Authenticate to Azure and select your App:
+      ![image](https://user-images.githubusercontent.com/14298823/126417458-667f5bfe-7728-47cf-9d9f-a7704868db82.png)
+
+      Pipeline is now ready. in next screen, you edit/review, or directly "save and run"
+      ![image](https://user-images.githubusercontent.com/14298823/126417788-b5120474-4dd5-4119-b68e-98236d56d4df.png)
+
+  
     Azure Pipelines creates an azure-pipelines.yml file that defines your CI/CD pipeline as a series of stages, Jobs, and steps, where each step contains the details for different tasks and scripts.
   
   2. 
