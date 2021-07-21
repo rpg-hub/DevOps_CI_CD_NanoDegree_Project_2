@@ -236,5 +236,5 @@ A mobile version is also an attractive option.
 
 ## Demo 
 
-Link to video walkthru (Demo): 
+Link to video walkthru (Demo): https://youtu.be/G2blme2kp7g
 
