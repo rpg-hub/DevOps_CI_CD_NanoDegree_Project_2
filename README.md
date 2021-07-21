@@ -13,7 +13,8 @@ We are going to use Trello board and an spreadsheet to manage work items. With w
 This also ensures DevOps best practices are used to build and manage the project.
 
 * https://trello.com/b/NPG9wHo8/devopscicdnanodegreeproject2trelloboard
-* A link to a spreadsheet that includes the original and final project plan>
+* spreadsheet that includes the original and final project plan:[DevOps_CI_CD_NanoDegree_Project_2_worksheet.xlsx](https://github.com/rpg-hub/DevOps_CI_CD_NanoDegree_Project_2/files/6852665/DevOps_CI_CD_NanoDegree_Project_2_worksheet.xlsx)
+
 
 ## Instructions
 
@@ -235,5 +236,5 @@ A mobile version is also an attractive option.
 
 ## Demo 
 
-Link to video walkthru (Demo):
-I am making video now.....
+Link to video walkthru (Demo): https://youtu.be/2CtVaX3y_CI
+
