@@ -196,7 +196,29 @@ Port: 443
 ```
 
 * Output of streamed log files from deployed application
+  ```bash
   
+rajeev@Azure:~/DevOps_CI_CD_NanoDegree_Project_2$ az webapp log tail -n devops-ci-cd-rajeev
+2021-07-21T02:20:33  Welcome, you are now connected to log-streaming service.
+
+Starting Log Tail -n 10 of existing logs ----
+
+/home/LogFiles/__lastCheckTime.txt  (https://devops-ci-cd-rajeev.scm.azurewebsites.net/api/vfs/LogFiles/__lastCheckTime.txt)
+7/20/21 10:42:10 PM
+
+
+/home/LogFiles/kudu/trace/42b8676249b7-304e3c17-b3b4-4f01-aca7-2a26bcf7a162.txt  (https://devops-ci-cd-rajeev.scm.azurewebsites.net/api/vfs/LogFiles/kudu/trace/42b8676249b7-304e3c17-b3b4-4f01-aca7-2a26bcf7a162.txt)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Kudu.Services.Web.Tracing.TraceMiddleware.Invoke(HttpContext context) in /tmp/KuduLite/Kudu.Services.Web/Tracing/TraceMiddleware.cs:line 65
+2021-07-21T02:16:27      Outgoing response, type: response, statusCode: 400, statusText: BadRequest
+  ```
   
 
 
