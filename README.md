@@ -177,12 +177,11 @@ create service connection:
   
   
 
-c. While creeating a service connection please select "Python to Linux Web App on Azure" in configuration wizard and select out App from drop down menu.
+* Running Azure App Service from Azure Pipelines automatic deployment (executing CD Pipeline)
+  ![image](https://user-images.githubusercontent.com/14298823/126418679-f0857171-941a-4180-9fec-7f419d04c3e5.png)
 
 
-* Running Azure App Service from Azure Pipelines automatic deployment
-
-* Azure Pipeline Processing: https://github.com/rpn-hub/<project-name>/actions/workflows/python-app.yml
+* Azure Pipeline Processing: https://github.com/rpg-hub/DevOps_CI_CD_NanoDegree_Project_2/actions/workflows/main.yml
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
