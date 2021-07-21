@@ -180,28 +180,26 @@ create service connection:
   
 
 * Running Azure App Service from Azure Pipelines automatic deployment (executing CD Pipeline)
+* A successful Azure Pipeline Processing:
+  
   ![image](https://user-images.githubusercontent.com/14298823/126418679-f0857171-941a-4180-9fec-7f419d04c3e5.png)
 
-
-* A successful Azure Pipeline Processing:
-  ![image](https://user-images.githubusercontent.com/14298823/126419736-629cd0a2-7216-4bfe-be53-1ed172849d2c.png)
-
-  
-  
   
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
+rajeev@Azure:~/DevOps_CI_CD_NanoDegree_Project_2$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
 
 * Output of streamed log files from deployed application
+  
+  
 
-> 
+
 
 ## Enhancements
 
