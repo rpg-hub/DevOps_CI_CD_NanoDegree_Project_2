@@ -112,31 +112,24 @@ To be able to run this app, we first need to clone our code in Git on our local 
     create DevOps Project
     ![image](https://user-images.githubusercontent.com/14298823/126415318-e89a68f7-66c8-44de-aae7-652e1ee1573a.png)
   
+create service connection:
+  go to project settings at bottom:
+  ![image](https://user-images.githubusercontent.com/14298823/126415539-46a4caee-05e5-43df-8a85-c23cebb4f212.png)
 
-    create service connection:
+  select 'Service connections', create a new connection:
+  ![image](https://user-images.githubusercontent.com/14298823/126415607-d45d8b36-44e2-49af-b183-ece0014654bf.png)
+
+  Select ARM:
+  ![image](https://user-images.githubusercontent.com/14298823/126415641-4085715a-a583-484d-a938-a4fe73aba20c.png)
   
-      go to project settings at bottom:
-      ![image](https://user-images.githubusercontent.com/14298823/126415539-46a4caee-05e5-43df-8a85-c23cebb4f212.png)
-  
+  select authentication method:
+  ![image](https://user-images.githubusercontent.com/14298823/126415690-5c763dfb-128e-4b33-8b5f-1461e9c00ef1.png)
 
-      select 'Service connections', create a new connection:
-      ![image](https://user-images.githubusercontent.com/14298823/126415607-d45d8b36-44e2-49af-b183-ece0014654bf.png)
+  Authenticate to your Azure Account and put in more more details:
+  ![image](https://user-images.githubusercontent.com/14298823/126416452-8ef84e9f-41d7-491a-9b18-be87c5207682.png)
 
-
-      Select ARM:
-      ![image](https://user-images.githubusercontent.com/14298823/126415641-4085715a-a583-484d-a938-a4fe73aba20c.png)
-  
-
-      select authentication method:
-      ![image](https://user-images.githubusercontent.com/14298823/126415690-5c763dfb-128e-4b33-8b5f-1461e9c00ef1.png)
-
-
-      Authenticate to your Azure Account and put in more more details:
-      ![image](https://user-images.githubusercontent.com/14298823/126416452-8ef84e9f-41d7-491a-9b18-be87c5207682.png)
-
-
-      select the same RG where your App is:
-      ![image](https://user-images.githubusercontent.com/14298823/126416706-5cdd1c10-e1db-498f-94c6-2a7765d574ab.png)
+  select the same RG where your App is:
+  ![image](https://user-images.githubusercontent.com/14298823/126416706-5cdd1c10-e1db-498f-94c6-2a7765d574ab.png)
 
       
     c. create and configure pipeline:
