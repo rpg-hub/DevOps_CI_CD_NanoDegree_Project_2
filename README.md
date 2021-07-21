@@ -65,7 +65,7 @@ To be able to run this app, we first need to clone our code in Git on our local 
 
   ![image](https://user-images.githubusercontent.com/14298823/126403147-f4fbf10a-977b-4973-87e3-be9eb467132b.png)
 
-# Setting up Azure Actions for CI
+# Setting up GitHub Actions for CI
 
 * Setup GitHub Actions : (CI workflow)
   go to Actions, and select this workflow to start with: "set up a workflow yourself"
@@ -102,6 +102,9 @@ To be able to run this app, we first need to clone our code in Git on our local 
   
   ![image](https://user-images.githubusercontent.com/14298823/126405034-0a2f252b-4a8d-4b5a-9eff-e2e70cb4940c.png)
 
+
+# Setting up Azure Pipeline for CD
+  
  
 * Create a Azure Pipeline with Azure DevOps for CD to Azure App service
   1. Create a Pipeline in Azure DevOps.
