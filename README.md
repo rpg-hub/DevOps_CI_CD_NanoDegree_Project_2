@@ -103,15 +103,17 @@ To be able to run this app, we first need to clone our code in Git on our local 
   ![image](https://user-images.githubusercontent.com/14298823/126405034-0a2f252b-4a8d-4b5a-9eff-e2e70cb4940c.png)
 
 
-# Setting up Azure Pipeline for CD
   
- 
+# Setting up Azure Pipeline for CD
+
+
 * Create a Azure Pipeline with Azure DevOps for CD to Azure App service
   Create a Pipeline in Azure DevOps.
-    a. create DevOps Project
-      ![image](https://user-images.githubusercontent.com/14298823/126415318-e89a68f7-66c8-44de-aae7-652e1ee1573a.png)
+    create DevOps Project
+    ![image](https://user-images.githubusercontent.com/14298823/126415318-e89a68f7-66c8-44de-aae7-652e1ee1573a.png)
+  
 
-    b. create service connection:
+    create service connection:
       go to project settings at bottom:
       ![image](https://user-images.githubusercontent.com/14298823/126415539-46a4caee-05e5-43df-8a85-c23cebb4f212.png)
   
