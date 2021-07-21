@@ -65,17 +65,20 @@ To be able to run this app, we first need to clone our code in Git on our local 
 
   ![image](https://user-images.githubusercontent.com/14298823/126403147-f4fbf10a-977b-4973-87e3-be9eb467132b.png)
 
+# Setting up Azure Actions for CI
+
 * Setup GitHub Actions : (CI workflow)
   go to Actions, and select this workflow to start with: "set up a workflow yourself"
   
   ![image](https://user-images.githubusercontent.com/14298823/126407364-1f75d6cb-81e5-4824-b939-3947a4723762.png)
 
+  This yml file should like the one in my Repo, it is situated here: "<your-repo>"//.github/workflows/main.yml
 
 * The CI job completes successfully.
   ![image](https://user-images.githubusercontent.com/14298823/126409773-a1641e43-b3d3-4f54-8af4-d59ae81a6c15.png)
 
-
-
+# Setting up Azure Web App
+  
 * Configure website name: Site names only allow alphanumeric characters and hyphens, cannot start or end in a hyphen, and must be less than 64 chars.
 
   For this project site name is: https://DevOps-CI-CD-Rajeev.azurewebsites.net
