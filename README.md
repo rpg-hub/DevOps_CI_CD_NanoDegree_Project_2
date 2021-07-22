@@ -19,7 +19,7 @@ This also ensures DevOps best practices are used to build and manage the project
 ## Instructions
 
 * Architectural Diagram (Shows how key parts of the system work)
-![DevOps_CI_CD_NanoDegree_Project_2_architectural-diagram](https://user-images.githubusercontent.com/14298823/126376627-baada60a-295e-4543-8626-f3fd87d12d2f.jpg)
+![DevOps_CI_CD_NanoDegree_Project_2_architectural-diagram-2](https://user-images.githubusercontent.com/14298823/126685275-4cc78126-d8ec-485b-b127-c2a607ba73be.jpg)
 
 
 To be able to run this app, we first need to clone our code in Git on our local PC Or Azure Cloud Shell. Here we will use Azure Cloud Shell.
@@ -98,7 +98,11 @@ To be able to run this app, we first need to clone our code in Git on our local 
 
 
 * Project running on Azure App Service.
- 
+  
+  ![image](https://user-images.githubusercontent.com/14298823/126685631-eb3a6db1-2966-4278-9a00-faa92d439c82.png)
+
+  the website...
+  
   ![image](https://user-images.githubusercontent.com/14298823/126405383-38ad155f-fc2c-44ba-800c-584f77e24a80.png)
 
   A successful execution of the deployed app: This script tests the App running on Azure App Service.
@@ -228,13 +232,34 @@ Port: 443
   
 ```
 
-## Enhancements
+  
+### Loal Test:
+  A load test, using Locust, is included to test our app. This test is run on website running on local PC.
+  to install and run:
+  * install Locust:
+    `pip install locust`
+  
+  * start App:
+    `python app.py`
+  
+  * Start Locust:
+    `locust`
+  
+  * Check in Browser:
+    Open http://localhost:8089 in Browser. Enter the total number of users to simulate, spawn rate, set the host to localhost:5000, and click Start Swarming:
+  ![image](https://user-images.githubusercontent.com/14298823/126709001-fc32bbe5-417b-4857-9c37-09a30edb70ee.png)
+
+  ![image](https://user-images.githubusercontent.com/14298823/126712352-c923d7a7-eaaa-4810-98c6-712de6c31336.png)
+
+  
+  
+# Enhancements
 
 We can add some pitcures and links to execute and display results.
 Maybe some way to include more datasets.
 A mobile version is also an attractive option.
 
-## Demo 
+# Demo 
 
 Link to video walkthru (Demo): https://youtu.be/lMSz1hDqGDI
 
