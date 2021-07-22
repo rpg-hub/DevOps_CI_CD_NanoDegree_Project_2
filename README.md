@@ -233,7 +233,7 @@ Port: 443
 ```
 
   
-### Loal Test:
+### Load Test:
   A load test, using Locust, is included to test our app. This test is run on website running on local PC.
   to install and run:
   * install Locust:
