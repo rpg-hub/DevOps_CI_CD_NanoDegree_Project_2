@@ -246,7 +246,7 @@ Port: 443
     `locust`
   
   * Check in Browser:
-    Open http://localhost:8089 in Browser. Enter the total number of users to simulate, spawn rate, set the host to localhost:5000, and click Start Swarming:
+    Open http://localhost:8089 in Browser. Enter the total number of users to simulate, spawn rate, set the host to https://devops-ci-cd-rajeev.azurewebsites.net/, and click Start Swarming:
   
   ### start:
   
