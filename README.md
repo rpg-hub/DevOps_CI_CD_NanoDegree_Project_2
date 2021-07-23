@@ -248,11 +248,18 @@ Port: 443
   * Check in Browser:
     Open http://localhost:8089 in Browser. Enter the total number of users to simulate, spawn rate, set the host to localhost:5000, and click Start Swarming:
   
-  start:..
+  ### start:
+  
   ![image](https://user-images.githubusercontent.com/14298823/126815169-c972a2e9-5df4-425e-a68f-934202590c40.png)
 
-  running:...
-  ![image](https://user-images.githubusercontent.com/14298823/126817119-b16b8009-cc1c-490a-9b06-5ae0541bb954.png)
+  ### running:
+  
+  ![image](https://user-images.githubusercontent.com/14298823/126824045-21677c78-c5f7-4812-a603-9b41a551c646.png)
+
+  
+  ### Locust charts...
+  ![image](https://user-images.githubusercontent.com/14298823/126824093-ca70d0fb-9f58-4cf4-85c6-977bb2b5c19b.png)
+
 
 
 
